@@ -1,0 +1,2 @@
+wget -p -H -E -nH -k -P http --exclude-domains https://www.sonysonpo.co.jp/ https://www.sonysonpo.co.jp/auto/coverages/acvr014.html
+wget -p -H -E -nH  -P http --exclude-domains https://www.sonysonpo.co.jp/ https://www.sonysonpo.co.jp/auto/coverages/acvr014.html
