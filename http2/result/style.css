@@ -1,0 +1,228 @@
+@charset "Shift_JIS";
+
+.clear { clear: both; }
+
+strong > span { color: #f00; }
+.flImgR {
+    display: inline;
+    float: right;
+    margin: 0 0 1em 20px;
+}
+.flImgR + .flImgR { margin: 0 -10px 1em 10px; }
+
+@media only screen and (max-width: 640px) {
+	
+	.flImgR {
+		display: block;
+		float: none;
+		margin: 0 0 1em;
+		text-align: center;
+	}
+	
+	
+	.flImgR img {
+		width: 100%;
+	}
+}
+
+
+/* !display
+---------------------------------------------------------- */
+.sp { display: none; }
+.pc { display: block; }
+.none { display: none; }
+@media only screen and (max-width: 640px) {
+	.sp { display: block; }
+	.pc { display: none; }
+}
+
+.linkList01 {
+	overflow: hidden;
+}
+	.linkList01 li,
+	.linkList01 > a {
+		position: relative;
+		padding: 0 0 5px 10px;
+	}
+		.linkList01 li:before,
+		.linkList01 > a:before {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			margin-top: 0.35em;
+			width: 5px;
+			height: 9px;
+			background: url(/share/image/ico_sprite01.webp);
+			background-size: 250px 250px;
+			background-position: 0 -220px;
+			background-repeat: no-repeat;
+			background: url(/share/image/ico_arrow03_ie8.png) top left \9;
+		}
+		.linkList01 li:last-child {
+			padding-bottom: 0;
+		}
+			.linkList01 li:last-child:before {
+			/*	margin-top: -4px; */
+			}
+
+.linkList01 + .mod-image { margin-top: 30px; }
+
+/*___ pgh-guard-01 ___*/
+
+
+/*___ contentsBottom01 ___*/
+
+ /* troubleNavi */
+
+/* quoteBox */
+
+/* agde051.html */
+
+/* acvr */
+
+.list-question01 + p {
+	margin-top: 1em;
+}
+
+/* agde000 */
+
+/* agde004 */
+
+/* agde008 */
+
+/* agde009 */
+
+/* agde010 */
+
+/* agde016 */
+
+/* antc001 */
+
+/* rates */
+
+/* arts000.html */
+
+
+/* arts001.html */
+
+/* arts002.html */
+
+/* arts003.html */
+
+/* arts004.html */
+
+/* rsv */
+
+/* arsv000.html */
+
+/* arsv001.html */
+
+/* arsv002.html */
+
+/* arsv003.html */
+
+
+/* solution */
+
+/* asol001.html */
+
+/* asol003.html */
+
+/* asol004.html */
+
+/* asol005.html */
+
+/* asol006.html */
+
+/* asol007.html */
+
+/* asol008.html */
+
+/* asol010.html */
+
+/* Smile */
+
+/* agde501.html */
+/* adge130 - 135 */
+
+
+
+/*___ sitemap ___*/
+
+/*___ /auto/benefits/abnf000.html ___*/
+
+
+.topGuide530 {
+	/* height: 360px; */
+	/* padding: 30px 0 20px; */
+	margin-bottom: 1.5em;
+	/* -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #44b2a4;
+	text-align: center; */
+}
+
+	.topGuide530 h2 {
+		color: #fff;
+		font-size: 150%;
+		font-weight: bold;
+	}
+@media screen and (max-width: 640px) {
+	.topGuide530 {
+		height: auto;
+		padding: 25px 20px 15px;
+	}
+}
+/* �ߎ� */
+/* -------------------------------
+ quote
+--------------------------------- */
+.quote .content {overflow: visible;}
+.quote .section {}
+@media screen and (max-width: 640px){
+	.quote .section {
+		font-size: 16px;
+	}
+}
+.quote .section img {
+  max-width: 100%;
+}
+.quote .section-in {}
+.quote .area-border {}
+/* intro */
+/* information */
+.quote .information {}
+    /* taboo */
+    /* wishes */
+    /* faq */
+/* quote-contact */
+
+/* quote/index only */
+/* aha_1610 */
+/* quote/android standard brawser only */
+
+/* agde801 */
+/* agde802 */
+/* asol014 */
+/* quote abtest */
+/* artg003 */
+
+.sub-content.type01 .sub-contact02 .innerbox .detail .link-lineservice a {
+  background-color: #06C755;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.3;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 0 #767676;
+}
+.sub-content.type01 .sub-contact02 .innerbox .detail .link-lineservice a:hover {
+  opacity: 0.8;
+}
+  

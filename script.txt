@@ -1,2 +1,4 @@
 wget -p -H -E -nH -k -P http --exclude-domains https://www.sonysonpo.co.jp/ https://www.sonysonpo.co.jp/auto/coverages/acvr014.html
-wget -p -H -E -nH  -P http --exclude-domains https://www.sonysonpo.co.jp/ https://www.sonysonpo.co.jp/auto/coverages/acvr014.html
+wget -p -H -E -nH  -P http2 --exclude-domains https://www.sonysonpo.co.jp/ https://www.sonysonpo.co.jp/auto/guide/agde540.html
+
+npx @squoosh/cli --webp auto ./http2/share/image/auto/guide/img_agde540_05.png

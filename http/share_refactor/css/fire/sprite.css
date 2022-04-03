@@ -1,0 +1,372 @@
+@charset "Shift_JIS";
+.sprite_img {
+  background-image: url("/share/image/fire/top/css_sprites.webp");
+}
+
+.logo {
+  width: 136px;
+  height: 37px;
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -10px;
+}
+.goto_top a:before {
+  width: 34px;
+  height: 34px;
+  content: " ";
+  display: block;
+  margin: 5px auto;
+  background: url("/share/image/fire/top/css_sprites.webp") -221px -65px;
+}
+.icon_white_arrow {
+  width: 8px;
+  height: 16px;
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -239px;
+}
+.icon_gray_arrow {
+  width: 5px;
+  height: 9px;
+  background: url("/share/image/fire/top/css_sprites.webp") -43px -204px;
+}
+.icon_button_arrow {
+  width: 13px;
+  height: 7px;
+  background: url("/share/image/fire/top/css_sprites.webp") -57px -177px;
+}
+.icon_note_download:after {
+  width: 27px;
+  height: 33px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  background: url("/share/image/fire/top/css_sprites.webp") -120px -165px;
+}
+.icon_note_load:after {
+  width: 25px;
+  height: 24px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: url("/share/image/fire/top/css_sprites.webp") -175px -122px;
+}
+.icon_note_write:after {
+  width: 25px;
+  height: 24px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: url("/share/image/fire/top/css_sprites.webp") -120px -67px;
+}
+.icon_note_dentaku:after {
+  width: 30px;
+  height: 35px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  background: url("/share/image/fire/top/css_sprites.webp") -221px -119px;
+}
+.mitsumoti_inner .icon_note_dentaku:after {
+  top: 14px;
+  left: 14px;
+}
+.mitsumoti_inner .icon_note_load:before,
+.mitsumoti_inner .icon_note_write:before,
+.mitsumoti_inner .icon_note_download:before,
+.mitsumoti_inner .icon_note_dentaku:before {
+  width: 60px;
+  height: 60px;
+}
+
+.conversion_human:before,
+.icon_note_load:before,
+.icon_note_write:before,
+.icon_note_download:before,
+.icon_note_dentaku:before,
+.icon-top_documents:before,
+.icon-top_apply:before {
+  width: 50px;
+  height: 50px;
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  background: #e46e2e;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+}
+.icon-top_documents_large:before,
+.icon-top_apply_large:before {
+  width: 61px;
+  height: 61px;
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  background: #e46e2e;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+}
+@media screen and (max-width: 640px) {
+  .icon-top_documents_large:before {
+    height: 82px;
+  }
+}
+.conversion_human:before {
+  background: #001a44;
+}
+.conversion_red.icon_note_load:before,
+.conversion_red.icon_note_write:before,
+.conversion_red.icon_note_download:before,
+.conversion_red.icon_note_dentaku:before,
+.conversion_red.icon-top_documents:before,
+.conversion_red.icon-top_documents_large:before,
+.conversion_red.icon-top_apply:before,
+.conversion_red.icon-top_apply_large:before {
+  background: #cc4242;
+}
+.conversion_human:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 13px;
+  height: 15px;
+  background: url(/share/image/fire/top/css_sprites.webp) -10px -204px;
+}
+
+.btn_link:after {
+  display: inline-block;
+  content: " ";
+  width: 8px;
+  height: 16px;
+  position: absolute;
+  top: 35%;
+  left: 20px;
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -239px;
+}
+
+.lefts .btn_link:after {
+  display: inline-block;
+  content: " ";
+  width: 8px;
+  height: 16px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  transform: rotate(180deg);
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -239px;
+}
+.btn_link:before {
+  width: 50px;
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  background: #6db3d4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 3px;
+}
+
+.icon_balloon {
+  width: 27px;
+  height: 7px;
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -177px;
+}
+.icon_mini_human {
+  width: 13px;
+  height: 15px;
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -204px;
+}
+
+.navi_auto_off {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -120px -122px;
+}
+.navi_auto_on {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -67px;
+}
+.navi_iryou_off {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -221px -10px;
+}
+.navi_iryou_on {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -65px -67px;
+}
+.navi_pet_off {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -166px -10px;
+}
+.navi_pet_on {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -166px -65px;
+}
+.navi_kasai_off {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -10px -122px;
+}
+.navi_kasai_on {
+  width: 35px;
+  height: 35px;
+  background: url("/share/image/fire/top/css_sprites.webp") -65px -122px;
+}
+.icon_check {
+  position: relative;
+  padding-left: 30px !important;
+}
+.icon_check:before {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 0;
+  left: 0;
+  background: url("/share/image/fire/top/css_sprites.webp") -157px -165px;
+}
+
+.icon_human_sp,
+.icon_search_sp {
+  display: inline-block;
+}
+.icon_human_sp {
+  width: 45px;
+  height: 35px;
+  background: url("/share/image/fire/top/mypage_btn.png") no-repeat;
+  background-size: contain;
+}
+.icon_search_sp {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  background: url("/share/image/fire/top/sp_icon_search.png") no-repeat;
+  background-size: contain;
+}
+
+.icon-balloon_auto,
+.icon-balloon_md,
+.icon-balloon_fire,
+.icon-balloon_travel,
+.icon-balloon_pet,
+.icon-balloon_auto_on,
+.icon-balloon_md_on,
+.icon-balloon_fire_on,
+.icon-balloon_travel_on,
+.icon-balloon_pet_on {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
+.icon-balloon_auto {
+  background: url("/share/image/fire/top/css_sprites.webp") -265px -9px;
+}
+.icon-balloon_md {
+  background: url("/share/image/fire/top/css_sprites.webp") -265px -42px;
+}
+.icon-balloon_fire {
+  background: url("/share/image/fire/top/css_sprites.webp") -265px -77px;
+}
+.icon-balloon_travel {
+  background: url("/share/image/fire/top/css_sprites.webp") -265px -114px;
+}
+.icon-balloon_pet {
+  background: url("/share/image/fire/top/css_sprites.webp") -265px -148px;
+}
+.icon-balloon_auto_on {
+  background: url("/share/image/fire/top/css_sprites.webp") -298px -9px;
+}
+.icon-balloon_md_on {
+  background: url("/share/image/fire/top/css_sprites.webp") -298px -42px;
+}
+.icon-balloon_fire_on {
+  background: url("/share/image/fire/top/css_sprites.webp") -298px -77px;
+}
+.icon-balloon_travel_on {
+  background: url("/share/image/fire/top/css_sprites.webp") -298px -114px;
+}
+.icon-balloon_pet_on {
+  background: url("/share/image/fire/top/css_sprites.webp") -298px -148px;
+}
+#service_balloon ul:before {
+  content: " ";
+  width: 19px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: 70px;
+  background: url("/share/image/fire/top/css_sprites.webp") -34px -235px;
+}
+.icon-top_arrow {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 10px auto;
+  background: url("/share/image/fire/top/gototop.png") no-repeat;
+  background-size: contain;
+}
+
+.icon-top_documents:after {
+  width: 27px;
+  height: 27px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: url(/share/image/fire/top/css_sprites.webp) -222px -211px;
+}
+.icon-top_documents_large:after {
+  width: 35px;
+  height: 35px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: url(/share/image/fire/top/css_sprites.webp) -139px -211px;
+}
+@media screen and (max-width: 640px) {
+  .icon-top_documents_large:after {
+    top: 22px;
+  }
+}
+
+.icon-top_apply:after {
+  width: 24px;
+  height: 27px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: url(/share/image/fire/top/css_sprites.webp) -185px -211px;
+}
+.icon-top_apply_large:after {
+  width: 33px;
+  height: 35px;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  background: url(/share/image/fire/top/css_sprites.webp) -95px -211px;
+}
